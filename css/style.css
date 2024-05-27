@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --text-color: #000;
     --hover-color: #FF993A;
     --accent-color:#FF463A;
@@ -8,14 +8,14 @@
     --footer-bacground: #181818;
     
 
-}
+} */
 
 .container {
     width: 1640px;
     padding-left: 10px;
     padding-right: 10px;
     margin: 0 auto;
-    /* outline: solid greenyellow ; */
+    outline: solid greenyellow ;
 }
 
 
@@ -25,6 +25,7 @@
 .header {
     padding-top: 20px;
     padding-bottom: 20px;
+
 }
 
 .header-box {
@@ -32,305 +33,100 @@
     align-items: center;
 }
 
-
-
 .header-logo {
     display: flex;
     align-items: center;
-    margin-right: 188px;
 }
 
 .header-img {
-    width: 80px;
-    height: 80px;
-    margin-right: 37px;
+width: 80px;
+height: 80px;
+
 }
 
+
 .logo-text {
-    color: var(--hover-color);
-font-family: "Oswald", sans-serif;
+    color: #FF993A;
+font-family: "Oswald";
 font-size: 24px;
 font-weight: 400;
 line-height: normal;
+margin-left: 37px;
 }
-
 
 .header-list {
     display: flex;
     gap: 65px;
+    margin-left: 188px;
 }
 
 .header-link {
-    color: var(--text-color);
-font-family: "Raleway", sans-serif;
+    color: #000;
+font-family: "Raleway";
 font-size: 20px;
 font-weight: 400;
 line-height: normal;
 }
 
-.header-link:hover,
-.header-link:focus {
-    color: var(--hover-color);
-}
-
-/* секція герой */
 
 .hero {
     padding-top: 134px;
     padding-bottom: 135px;
-    background-color: var(--hero-bacground);
+    background: #FFE4CC;
 }
+
 
 .hero-box {
     display: flex;
     align-items: center;
 }
 
+
 .hero-content {
     margin-right: 397px;
 }
 
-
-
 .hero-text {
-    color: var(--hover-color);
-font-family: "Raleway", sans-serif;
+    color: #FF993A;
+font-family: "Raleway";
 font-size: 16px;
 font-weight: 400;
 line-height: normal;
 margin-bottom: 20px;
 }
 
+
 .hero-title {
-width: 273px;
-color: var(--accent-color);
-font-family: "Nunito", sans-serif;
+    color: #FF463A;
+font-family: "Nunito";
 font-size: 48px;
 font-weight: 700;
 line-height: normal;
+width: 273px ;
 margin-bottom: 45px;
 }
+
 
 .hero-deck {
-width: 527px;
-color: var(--text-color);
-font-family: "Nunito", sans-serif;
-font-size: 20px;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 45px;
+    color: #000;
+    font-family: "Nunito";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    width: 527px;
+    margin-bottom: 45px;
 }
+
 
 .hero-btn {
-padding: 15px 30px;
-background-color: var(--accent-color);
-color: var(--contact-text-hover);
-font-family:"Nunito", sans-serif;
+    color: #FFF;
+font-family: "Nunito";
 font-size: 20px;
 font-weight: 700;
 line-height: normal;
-border-radius: 5px;
-border: transparent;
-}
-
-/* секція популярні морозива */
-
-.popular {
-    padding-top: 60px;
-    padding-bottom: 60px;
-}
-
-.popular-list {
-    display: flex;
-    gap: 20px;
-}
-
-.popular-item {
-    display: flex;
-    align-items: center;
-    width: 800px;
-    border-radius: 10px;
-    background-color: var(--popular-cards);
-}
-
-.popular-content {
-    margin-right: 117px;
-    padding-left: 70px;
-}
-
-.popular-title {
-    color: var(--accent-color);
-font-family: "Nunito", sans-serif;
-font-size: 36px;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 10px;
-}
-
-.popular-text {
-    color: var(--text-color);
-font-family: "Raleway", sans-serif;
-font-size: 20px;
-font-weight: 400;
-line-height: normal;
-margin-bottom: 45px;
-}
-
-.popular-btn {
 padding: 15px 30px;
 border-radius: 5px;
-border: 1px solid var(--text-color);
-color: var(--text-color);
-font-family: "Raleway", sans-serif;
-font-size: 20px;
-font-weight: 400;
-line-height: normal;
-}
-
-/* секція top ice-cream */
-
-.top {
-    padding-top: 60px;
-    padding-bottom: 100px;
-    text-align: center;
-    background-color: var(--hero-bacground);
-}
-
-.top-title {
-    color: var(--accent-color);
-font-family: "Nunito", sans-serif;
-font-size: 48px;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 40px;
-}
-
-.top-text {
-color: var(--text-color);
-font-family: "Raleway", sans-serif;
-font-size: 20px;
-font-weight: 400;
-line-height: normal;
-width: 790px;
-margin: 0 auto;
-margin-bottom: 68px;
-}
-
-.top-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-
-
-/* секція контакти */
-
-.contact {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.contact-list {
-    display: flex;
-    gap: 20px;
-}
-
-.contact-item {
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 53px;
-    width: 527px;
-    border-radius: 10px;
-    box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.25);
-}
-
-
-.contact-img {
-    margin: 0 auto;
-    margin-bottom: 40px;
-
-}
-
-.contact-title {
-    color: var(--accent-color);
-text-align: center;
-font-family: Nunito;
-font-size: 32px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 25px;
-}
-
-/* .contact-box {
-    margin: 0 auto;
-} */
-
-.contact-link {
-    display: block;
-    color: var(--text-color);
-font-family: "Raleway", sans-serif;
-font-size: 24px;
-font-weight: 400;
-line-height: normal;
-}
-
-.contact-address {
-    display: block;
-color: var(--text-color);
-font-family: "Raleway", sans-serif;
-font-size: 24px;
-font-weight: 400;
-line-height: normal;
-}
-
-.contic {
-    width: 458px;
-    margin: 0 auto;
-}
-
-
-
-/* footer */
-
-.footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    background-color: var(--footer-bacground);
-}
-
-.footer-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.footer-logo {
-    display: flex;
-    align-items: center;
-}
-
-.footer-img {
-    width: 80px;
-    height: 80px;
-    margin-right: 37px;
-}
-
-.footer-text {
-color: var(--hover-color);
-font-family: "Oswald", sans-serif;
-font-size: 24px;
-font-weight: 400;
-line-height: normal;
-}
-
-.footer-deck {
-color: var(--contact-text-hover);
-font-family: "Inter", sans-serif;
-font-size: 20px;
-font-weight: 400;
-line-height: normal;
+background: #FF463A;
 }
 
 
