@@ -129,6 +129,56 @@ border-radius: 5px;
 background: #FF463A;
 }
 
+.popular-list{
+    display: flex;
+    gap: 20px;
+}
+
+.popular-item{
+    display: flex;
+    border-radius: 10px;
+background: #EFEFEF;
+align-items: center;
+padding-left: 70px;
+padding-right: 140px;
+}
+
+.popular-content{
+    margin-right: 117px;
+}
+
+.popular-title{
+    color: #FF463A;
+font-family:"Nunito";
+font-size: 36px;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 10px;
+}
+
+.popular-text{
+color: #000;
+font-family: "Raleway";
+font-size: 20px;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 45px;
+}
+
+.popular-btn{
+    color: #000;
+font-family: "Raleway";
+font-size: 20px;
+font-weight: 400;
+line-height: normal;
+border-radius: 5px;
+border: 1px solid #000;
+padding: 15px 30px;
+}
+
+
+
+
 
 /* font-family: "Inter", sans-serif; */
 /* font-family: "Oswald", sans-serif; */
