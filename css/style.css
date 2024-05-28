@@ -10,6 +10,11 @@
 
 }
 
+/* font-family: "Inter", sans-serif; */
+/* font-family: "Oswald", sans-serif; */
+/* font-family: "Nunito", sans-serif; */
+/* font-family: "Raleway", sans-serif; */
+
 .container {
     width: 1640px;
     padding-left: 10px;
@@ -263,9 +268,7 @@ line-height: normal;
 margin-bottom: 25px;
 }
 
-/* .contact-box {
-    margin: 0 auto;
-} */
+
 
 .contact-link {
     display: block;
@@ -334,7 +337,4 @@ line-height: normal;
 }
 
 
-/* font-family: "Inter", sans-serif; */
-/* font-family: "Oswald", sans-serif; */
-/* font-family: "Nunito", sans-serif; */
-/* font-family: "Raleway", sans-serif; */
+
