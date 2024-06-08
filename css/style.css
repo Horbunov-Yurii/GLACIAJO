@@ -32,24 +32,12 @@
     padding-bottom: 20px;
 }
 
-.header-box {
-    display: flex;
-    align-items: center;
-}
 
 
 
-.header-logo {
-    display: flex;
-    align-items: center;
-    margin-right: 188px;
-}
 
-.header-img {
-    width: 80px;
-    height: 80px;
-    margin-right: 37px;
-}
+
+
 
 .logo-text {
     color: var(--hover-color);
@@ -60,10 +48,6 @@ line-height: normal;
 }
 
 
-.header-list {
-    display: flex;
-    gap: 65px;
-}
 
 .header-link {
     color: var(--text-color);
@@ -86,14 +70,8 @@ line-height: normal;
     background-color: var(--hero-bacground);
 }
 
-.hero-box {
-    display: flex;
-    align-items: center;
-}
 
-.hero-content {
-    margin-right: 397px;
-}
+
 
 
 
@@ -103,31 +81,28 @@ font-family: "Raleway", sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: normal;
-margin-bottom: 20px;
+
 }
 
 .hero-title {
-width: 273px;
 color: var(--accent-color);
 font-family: "Nunito", sans-serif;
 font-size: 48px;
 font-weight: 700;
 line-height: normal;
-margin-bottom: 45px;
+
 }
 
 .hero-deck {
-width: 527px;
 color: var(--text-color);
 font-family: "Nunito", sans-serif;
 font-size: 20px;
 font-weight: 400;
 line-height: normal;
-margin-bottom: 45px;
+
 }
 
 .hero-btn {
-padding: 15px 30px;
 background-color: var(--accent-color);
 color: var(--contact-text-hover);
 font-family:"Nunito", sans-serif;
@@ -135,7 +110,6 @@ font-size: 20px;
 font-weight: 700;
 line-height: normal;
 border-radius: 5px;
-border: transparent;
 }
 
 /* секція популярні морозива */
@@ -145,23 +119,13 @@ border: transparent;
     padding-bottom: 60px;
 }
 
-.popular-list {
-    display: flex;
-    gap: 20px;
-}
+
 
 .popular-item {
-    display: flex;
-    align-items: center;
-    width: 800px;
-    border-radius: 10px;
     background-color: var(--popular-cards);
 }
 
-.popular-content {
-    margin-right: 117px;
-    padding-left: 70px;
-}
+
 
 .popular-title {
     color: var(--accent-color);
@@ -169,7 +133,6 @@ font-family: "Nunito", sans-serif;
 font-size: 36px;
 font-weight: 700;
 line-height: normal;
-margin-bottom: 10px;
 }
 
 .popular-text {
@@ -178,11 +141,9 @@ font-family: "Raleway", sans-serif;
 font-size: 20px;
 font-weight: 400;
 line-height: normal;
-margin-bottom: 45px;
 }
 
 .popular-btn {
-padding: 15px 30px;
 border-radius: 5px;
 border: 1px solid var(--text-color);
 color: var(--text-color);
@@ -207,7 +168,6 @@ font-family: "Nunito", sans-serif;
 font-size: 48px;
 font-weight: 700;
 line-height: normal;
-margin-bottom: 40px;
 }
 
 .top-text {
@@ -216,16 +176,8 @@ font-family: "Raleway", sans-serif;
 font-size: 20px;
 font-weight: 400;
 line-height: normal;
-width: 790px;
-margin: 0 auto;
-margin-bottom: 68px;
 }
 
-.top-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-}
 
 
 
@@ -236,26 +188,15 @@ margin-bottom: 68px;
     padding-bottom: 100px;
 }
 
-.contact-list {
-    display: flex;
-    gap: 20px;
-}
+
 
 .contact-item {
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 53px;
-    width: 527px;
     border-radius: 10px;
     box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.25);
 }
 
 
-.contact-img {
-    margin: 0 auto;
-    margin-bottom: 40px;
-
-}
 
 .contact-title {
     color: var(--accent-color);
@@ -265,13 +206,12 @@ font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-bottom: 25px;
 }
 
 
 
 .contact-link {
-    display: block;
+
     color: var(--text-color);
 font-family: "Raleway", sans-serif;
 font-size: 24px;
@@ -280,7 +220,6 @@ line-height: normal;
 }
 
 .contact-address {
-    display: block;
 color: var(--text-color);
 font-family: "Raleway", sans-serif;
 font-size: 24px;
@@ -288,10 +227,7 @@ font-weight: 400;
 line-height: normal;
 }
 
-.contic {
-    width: 458px;
-    margin: 0 auto;
-}
+
 
 
 
@@ -303,22 +239,10 @@ line-height: normal;
     background-color: var(--footer-bacground);
 }
 
-.footer-box {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
 
-.footer-logo {
-    display: flex;
-    align-items: center;
-}
 
-.footer-img {
-    width: 80px;
-    height: 80px;
-    margin-right: 37px;
-}
+
+
 
 .footer-text {
 color: var(--hover-color);
