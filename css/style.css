@@ -27,14 +27,23 @@
 
 /* секція хедер */
 
+
 .header {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.header-logo {
+    display: flex;
+    gap: 37px;
+    align-items: center;
+}
 
 
-
-
+.header > .container {
+    display: flex;
+    gap: 188px;
+    align-items: center;
+}
 
 
 
@@ -47,6 +56,10 @@ font-weight: 400;
 line-height: normal;
 }
 
+.header-list {
+    display: flex;
+    gap: 65px;
+}
 
 
 .header-link {
@@ -71,9 +84,14 @@ line-height: normal;
 }
 
 
+.hero > .container {
+    display: flex;
+    align-items: center;
+}
 
-
-
+.hero-box {
+    margin-right: 397px;
+}
 
 .hero-text {
     color: var(--hover-color);
@@ -81,7 +99,7 @@ font-family: "Raleway", sans-serif;
 font-size: 16px;
 font-weight: 400;
 line-height: normal;
-
+margin-bottom: 20px;
 }
 
 .hero-title {
@@ -90,6 +108,8 @@ font-family: "Nunito", sans-serif;
 font-size: 48px;
 font-weight: 700;
 line-height: normal;
+width: 273px;
+margin-bottom: 45px;
 
 }
 
@@ -99,6 +119,8 @@ font-family: "Nunito", sans-serif;
 font-size: 20px;
 font-weight: 400;
 line-height: normal;
+width: 527px;
+margin-bottom: 45px;
 
 }
 
@@ -119,10 +141,20 @@ border-radius: 5px;
     padding-bottom: 60px;
 }
 
-
+.popular-list {
+    display: flex;
+    gap: 20px;
+}
 
 .popular-item {
     background-color: var(--popular-cards);
+    display: flex;
+    gap: 117px;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 140px;
+    padding-left: 70px;
 }
 
 
@@ -133,6 +165,7 @@ font-family: "Nunito", sans-serif;
 font-size: 36px;
 font-weight: 700;
 line-height: normal;
+margin-bottom: 10px;
 }
 
 .popular-text {
@@ -141,6 +174,7 @@ font-family: "Raleway", sans-serif;
 font-size: 20px;
 font-weight: 400;
 line-height: normal;
+margin-bottom: 45px;
 }
 
 .popular-btn {
@@ -168,6 +202,7 @@ font-family: "Nunito", sans-serif;
 font-size: 48px;
 font-weight: 700;
 line-height: normal;
+margin-bottom: 40px;
 }
 
 .top-text {
@@ -176,8 +211,16 @@ font-family: "Raleway", sans-serif;
 font-size: 20px;
 font-weight: 400;
 line-height: normal;
+margin-bottom: 68px;
+width: 790px;
+margin-left: auto;
+margin-right: auto;
 }
-
+.top-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
 
 
@@ -188,14 +231,25 @@ line-height: normal;
     padding-bottom: 100px;
 }
 
-
+.contact-list {
+    display: flex;
+    gap: 20px;
+    
+}
 
 .contact-item {
     text-align: center;
     border-radius: 10px;
     box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.25);
+    padding-top: 30px;
+    padding-bottom: 53px;
+    width: 527px;
 }
-
+.contact-img {
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 .contact-title {
@@ -206,6 +260,7 @@ font-size: 32px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-bottom: 25px;
 }
 
 
@@ -217,6 +272,7 @@ font-family: "Raleway", sans-serif;
 font-size: 24px;
 font-weight: 400;
 line-height: normal;
+display: block;
 }
 
 .contact-address {
