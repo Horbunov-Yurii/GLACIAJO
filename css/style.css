@@ -295,7 +295,16 @@ line-height: normal;
     background-color: var(--footer-bacground);
 }
 
-
+.footer-logo {
+    display: flex;
+    gap: 37px;
+    align-items: center;
+}
+.footer>.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
 
 
@@ -315,6 +324,7 @@ font-size: 20px;
 font-weight: 400;
 line-height: normal;
 }
+
 
 
 
