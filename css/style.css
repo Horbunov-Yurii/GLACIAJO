@@ -18,17 +18,17 @@
   padding-left: 10px;
   padding-right: 10px;
   margin: 0 auto;
-   outline: solid greenyellow ;
+  outline: solid greenyellow;
 }
 
 .header {
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-box {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -50,8 +50,8 @@
 }
 
 .header-list {
-    display: flex;
-    gap: 65px;
+  display: flex;
+  gap: 65px;
 }
 
 .header-link {
@@ -65,100 +65,98 @@
 
 .header-link:hover,
 .header-link:focus {
-    color: #FF993A;
+  color: #ff993a;
 }
 
 /* hero */
 
-.hero{
-  background-color: #FFE4CC;
+.hero {
+  background-color: #ffe4cc;
 }
-.hero >.container {
+.hero > .container {
   display: flex;
   gap: 397px;
   align-items: center;
 }
 
-.hero-text{
-  color: #FF993A;
-    font-family: Raleway;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    margin-bottom: 20px;
+.hero-text {
+  color: #ff993a;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
 }
 
-.hero-title{
-  color: #FF463A;
-    font-family: Nunito;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 45px;
-    width: 273px;
+.hero-title {
+  color: #ff463a;
+  font-family: Nunito;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 45px;
+  width: 273px;
 }
 
-.hero-deck{
+.hero-deck {
   color: #000;
-    font-family: Nunito;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    width: 527px;
-    margin-bottom: 45px;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 527px;
+  margin-bottom: 45px;
 }
 
-.hero-btn{
-  color: #FFF;
-    font-family: Nunito;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    border-radius: 5px;
-      background: #FF463A;
-      padding: 15px 30px;
+.hero-btn {
+  color: #fff;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 5px;
+  background: #ff463a;
+  padding: 15px 30px;
 }
-
 
 /*секція популярні морозива*/
 
 .popular {
-padding-top: 60px;
-padding-bottom: 60px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .popular-title {
-  color: #FF463A;
-font-family: "Nunito";
-font-size: 36px;
-font-weight: 700;
-line-height: normal;
+  color: #ff463a;
+  font-family: "Nunito";
+  font-size: 36px;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .popular-text {
   color: #000;
-font-family: "Raleway";
-font-size: 20px;
-font-weight: 400;
-line-height: normal;
-margin-top: 10px;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
 }
-
 
 .popular-btn {
   color: #000;
-font-family: "Raleway";
-font-size: 20px;
-font-weight: 400;
-line-height: normal;
-padding: 15px 30px;
-border-radius: 5px;
-border: 1px solid #000;
-margin-top: 45px;
+  font-family: "Raleway";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 1px solid #000;
+  margin-top: 45px;
 }
 
 .popular-list {
@@ -167,15 +165,48 @@ margin-top: 45px;
 }
 
 .popular-item {
-display: flex;
-align-items: center;
-border-radius: 10px;
-background: #EFEFEF;
-padding-top: 40px;
-padding-bottom: 40px;
-padding-right: 140px;
-padding-left: 70px;
-gap: 117px;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  background: #efefef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 140px;
+  padding-left: 70px;
+  gap: 117px;
 }
 
-
+/* секція топ */
+.top {
+  padding-top: 60px;
+  padding-bottom: 100px;
+  background-color: #FFE4CC;
+}
+.top-title {
+  color: #ff463a;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.top-text {
+  color: #000;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 68px;
+  width: 790px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.top-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
