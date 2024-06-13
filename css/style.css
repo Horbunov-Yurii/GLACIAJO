@@ -123,3 +123,59 @@
       padding: 15px 30px;
 }
 
+
+/*секція популярні морозива*/
+
+.popular {
+padding-top: 60px;
+padding-bottom: 60px;
+}
+
+.popular-title {
+  color: #FF463A;
+font-family: "Nunito";
+font-size: 36px;
+font-weight: 700;
+line-height: normal;
+}
+
+.popular-text {
+  color: #000;
+font-family: "Raleway";
+font-size: 20px;
+font-weight: 400;
+line-height: normal;
+margin-top: 10px;
+}
+
+
+.popular-btn {
+  color: #000;
+font-family: "Raleway";
+font-size: 20px;
+font-weight: 400;
+line-height: normal;
+padding: 15px 30px;
+border-radius: 5px;
+border: 1px solid #000;
+margin-top: 45px;
+}
+
+.popular-list {
+  display: flex;
+  gap: 20px;
+}
+
+.popular-item {
+display: flex;
+align-items: center;
+border-radius: 10px;
+background: #EFEFEF;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-right: 140px;
+padding-left: 70px;
+gap: 117px;
+}
+
+
