@@ -68,6 +68,58 @@
     color: #FF993A;
 }
 
+/* hero */
 
+.hero{
+  background-color: #FFE4CC;
+}
+.hero >.container {
+  display: flex;
+  gap: 397px;
+  align-items: center;
+}
 
+.hero-text{
+  color: #FF993A;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.hero-title{
+  color: #FF463A;
+    font-family: Nunito;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 45px;
+    width: 273px;
+}
+
+.hero-deck{
+  color: #000;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 527px;
+    margin-bottom: 45px;
+}
+
+.hero-btn{
+  color: #FFF;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 5px;
+      background: #FF463A;
+      padding: 15px 30px;
+}
 
