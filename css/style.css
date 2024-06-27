@@ -26,6 +26,18 @@
   padding-bottom: 20px;
 }
 
+.header-box {
+  display: flex;
+  align-items: center;
+  gap: 188px;
+}
+
+.header-logo {
+display: flex;
+gap: 37px;
+align-items: center;
+}
+
 .logo-text {
   color: #ff993a;
   font-family: "Oswald";
@@ -34,6 +46,10 @@
   line-height: normal;
 }
 
+.header-list {
+  display: flex;
+  gap: 65px;
+}
 
 .header-link {
   color: #000;
