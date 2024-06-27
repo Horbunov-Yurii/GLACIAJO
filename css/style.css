@@ -105,6 +105,7 @@ align-items: center;
 }
 
 .hero-btn {
+  cursor: pointer;
   color: #fff;
   font-family: "Nunito";
   font-size: 20px;
@@ -156,6 +157,7 @@ align-items: center;
   gap: 117px;
 }
 .popular-btn {
+  cursor: pointer;
   padding: 15px 30px;
   color: #000;
   font-family: "Raleway";
