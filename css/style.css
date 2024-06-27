@@ -18,7 +18,7 @@
   padding-left: 10px;
   padding-right: 10px;
   margin: 0 auto;
-  /* outline: solid greenyellow; */
+  outline: solid greenyellow;
 }
 
 .header {
@@ -26,39 +26,19 @@
   padding-bottom: 20px;
 }
 
-.header-box {
-  display: flex;
-  align-items: center;
-}
-
-.header-logo {
-  width: 80px;
-  height: 80px;
-  display: flex;
-  gap: 37px;
-  margin-right: 188px;
-  align-items: center;
-}
-
 .logo-text {
   color: #ff993a;
-  font-family: Oswald;
+  font-family: "Oswald";
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
 
-.header-list {
-  display: flex;
-  gap: 65px;
-}
 
 .header-link {
   color: #000;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
@@ -73,54 +53,41 @@
 .hero {
   background-color: #ffe4cc;
 }
-.hero > .container {
-  display: flex;
-  gap: 397px;
-  align-items: center;
-}
+
 
 .hero-text {
   color: #ff993a;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 20px;
+ 
 }
 
 .hero-title {
   color: #ff463a;
-  font-family: Nunito;
+  font-family: "Nunito";
   font-size: 48px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 45px;
-  width: 273px;
 }
 
 .hero-deck {
   color: #000;
-  font-family: Nunito;
+  font-family: "Nunito";
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 527px;
-  margin-bottom: 45px;
 }
 
 .hero-btn {
   color: #fff;
-  font-family: Nunito;
+  font-family: "Nunito";
   font-size: 20px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
   border-radius: 5px;
   background: #ff463a;
-  padding: 15px 30px;
 }
 
 /*секція популярні морозива*/
@@ -144,7 +111,6 @@
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
-  margin-top: 10px;
 }
 
 .popular-btn {
@@ -152,28 +118,14 @@
   font-family: "Raleway";
   font-size: 20px;
   font-weight: 400;
-  line-height: normal;
-  padding: 15px 30px;
   border-radius: 5px;
   border: 1px solid #000;
-  margin-top: 45px;
 }
 
-.popular-list {
-  display: flex;
-  gap: 20px;
-}
 
 .popular-item {
-  display: flex;
-  align-items: center;
   border-radius: 10px;
   background: #efefef;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  padding-right: 140px;
-  padding-left: 70px;
-  gap: 117px;
 }
 
 /* секція топ */
@@ -185,73 +137,48 @@
 .top-title {
   color: #ff463a;
   text-align: center;
-  font-family: Nunito;
+  font-family: "Nunito";
   font-size: 48px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: 40px;
+
 }
 .top-text {
   color: #000;
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 20px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-bottom: 68px;
-  width: 790px;
-  margin-right: auto;
-  margin-left: auto;
 }
-.top-list{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
+
 /* contact */
 .contact {
   padding-top: 100px ;
   padding-bottom: 100px;
 }
 
-.contact-list {
-  display: flex;
-  gap: 20px;
-}
 
 .contact-item {
   text-align: center;
-  width: 527px;
   border-radius: 10px;
 box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.25);
-padding-top: 30px;
-padding-bottom: 53px;
 }
 
-.contact-item:hover {
-  background-color: #FF463A;
-  color: #fff;
-}
 
 .contact-img {
-  width: 100px;
+width: 100px;
 height: 100px;
-margin-bottom: 40px;
-margin-left: auto;
-margin-right: auto;
 }
 
 .contact-title {
 color: #FF463A;
 text-align: center;
-font-family: Nunito;
+font-family: "Nunito";
 font-size: 32px;
-font-style: normal;
 font-weight: 700;
 line-height: normal;
-margin-bottom: 25px;
+
 }
 
 /* .contact-title:hover {
@@ -261,12 +188,10 @@ margin-bottom: 25px;
 .contact-link {
   color: #000;
 text-align: center;
-font-family: Raleway;
+font-family: "Raleway";
 font-size: 24px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
-display: block;
 }
 
 /* .contact-link:hover {
@@ -276,9 +201,8 @@ display: block;
 .contact-address {
   color: #000;
   text-align: center;
-  font-family: Raleway;
+  font-family: "Raleway";
   font-size: 24px;
-  font-style: normal;
   font-weight: 400;
   line-height: normal;
 }
@@ -287,11 +211,6 @@ display: block;
   color: #fff;
 } */
 
-.contic {
-  margin-left: auto;
-  margin-right: auto;
-  width: 458px;
-}
 
 .footer {
   padding-top: 60px;
@@ -299,23 +218,11 @@ display: block;
   background-color: #181818;
 }
 
-.footer >.container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.footer-logo {
-  display: flex;
-  gap: 37px;
-  align-items: center;
-}
 
 .footer-text {
   color: #FF993A;
-font-family: Oswald;
+font-family: "Oswald";
 font-size: 24px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
@@ -327,9 +234,8 @@ height: 80px;
 
 .footer-deck {
 color: #FFF;
-font-family: Inter;
+font-family: "Inter";
 font-size: 20px;
-font-style: normal;
 font-weight: 400;
 line-height: normal;
 }
