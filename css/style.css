@@ -129,6 +129,23 @@ gap: 65px;
   padding-bottom: 60px;
 }
 
+.popular-list{
+  display: flex;
+  gap: 20px;
+}
+
+.popular-item {
+  border-radius: 10px;
+  background: #efefef;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 140px;
+  padding-left: 70px;
+  display: flex;
+  gap: 117px;
+  align-items: center;
+}
+
 .popular-title {
   margin-bottom: 10px;
   color: #ff463a;
@@ -136,6 +153,7 @@ gap: 65px;
   font-size: 36px;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 10px;
 }
 
 .popular-text {
@@ -145,6 +163,7 @@ gap: 65px;
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 45px;
 }
 
 
@@ -159,11 +178,6 @@ gap: 65px;
   border: 1px solid #000;
 }
 
-
-.popular-item {
-  border-radius: 10px;
-  background: #efefef;
-}
 
 /* секція топ */
 .top {
