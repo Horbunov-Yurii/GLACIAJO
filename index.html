@@ -54,7 +54,7 @@
             reiciendis. Nihil architecto laborum eaque. Deserunt maxime minus
             quas.
           </p>
-          <button type="button" class="hero-btn">Order Now</button>
+          <button type="button" class="hero-btn" data-modal-open>Order Now</button>
         </div>
         <img src="./img/hero-ice.png" alt="ice" class="hero-img" />
       </div>
@@ -125,8 +125,7 @@
           <li class="contact-item">
             <img src="./img/contact-email.png" alt="email" class="contact-img" />
             <h2 class="contact-title">Email Us:</h2>
-            <a href="mailto:hello@example.com
-" class="contact-link">hello@example.com
+            <a href="mailto:hello@example.com" class="contact-link">hello@example.com
             </a>
             <a href="mailto:info@example.com" class="contact-address">info@example.com</a>
           </li>
@@ -154,7 +153,7 @@
       </p>
     </div>
   </footer>
-  <div class="backdrop">
+  <div class="backdrop is-hidden" data-modal>
     <div class="modal">
       <h2 class="modal-title">Заголовок мадального вікна</h2>
       <form class="modal-form">
@@ -188,9 +187,15 @@
         </label>
         <input type="checkbox" class="modal-checkbox" required>
         <button type="submit">Відправити</button>
+        <button type="button" class="form-close" data-modal-close>
+          <svg class="close">
+          <use href="./img/symbol-defs.svg#close"></use>
+        </svg>
+      </button>
       </form>
     </div>
   </div>
+  <script src="./js/modal.js"></script>
 </body>
 
 </html>
