@@ -12,7 +12,14 @@
 /* font-family: "Nunito", sans-serif; */
 /* font-family: "Raleway", sans-serif; */
 
-
+.container{
+  width: 1640px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  outline: 1px solid purple;
+}
 
 
 
