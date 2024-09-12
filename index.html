@@ -19,7 +19,6 @@
 
 <body>
   <header class="header">
-    <div class="container header-box">
       <a href="./index.html" class="header-logo"><img src="./img/logo.png" alt="logo" class="header-img" /><span
           class="logo-text">GLACIAJO</span></a>
       <ul class="header-list">
@@ -39,13 +38,10 @@
           <a href="" class="header-link">Contact</a>
         </li>
       </ul>
-    </div>
   </header>
   <main>
     <!-- секція герой -->
     <section class="hero">
-      <div class="container hero-wrap">
-        <div class="hero-box">
           <p class="hero-text">Welcome To Our Ice Cream Shop</p>
           <h1 class="hero-title">Specializing Strawberry & Chocolate</h1>
           <p class="hero-deck">
@@ -55,36 +51,27 @@
             quas.
           </p>
           <button type="button" class="hero-btn" data-modal-open>Order Now</button>
-        </div>
         <img src="./img/hero-ice.png" alt="ice" class="hero-img" />
-      </div>
     </section>
     <!-- секція популярні морозива -->
     <section class="popular">
-      <div class="container">
         <ul class="popular-list">
           <li class="popular-item">
-            <div class="popular-box">
               <h2 class="popular-title">Popular items</h2>
               <p class="popular-text">35 items</p>
               <button type="button" class="popular-btn">Shop Now</button>
-            </div>
             <img src="./img/popular.png" alt="ice" class="popular-img" />
           </li>
           <li class="popular-item">
-            <div class="popular-box">
               <h2 class="popular-title">Popular items</h2>
               <p class="popular-text">35 items</p>
               <button type="button" class="popular-btn">Shop Now</button>
-            </div>
             <img src="./img/popular-ice.png" alt="ice" class="popular-img" />
           </li>
         </ul>
-      </div>
     </section>
     <!-- секція top ice-cream -->
     <section class="top">
-      <div class="container">
         <h2 class="top-title">Top Flavor's of Our Ice Cream</h2>
         <p class="top-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -116,11 +103,9 @@
             <img src="./img/top8.png" alt="ice" class="top-img" />
           </li>
         </ul>
-      </div>
     </section>
     <!-- секція контакти -->
     <section class="contact">
-      <div class="container">
         <ul class="contact-list">
           <li class="contact-item">
             <img src="./img/contact-email.png" alt="email" class="contact-img" />
@@ -141,60 +126,14 @@
             <a href="#" class="contact-link contic">Flatiron Building, 175 5th Ave, New York, NY 10010, USA</a>
           </li>
         </ul>
-      </div>
     </section>
   </main>
   <footer class="footer">
-    <div class="container">
       <a href="./index.html" class="footer-logo"><img src="./img/logo.png" alt="logo" class="footer-img" /><span
           class="footer-text">GLACIAJO</span></a>
       <p class="footer-deck">
         &copy; 2023 All Rights Reserved. Privacy Policy
       </p>
-    </div>
   </footer>
-  <div class="backdrop is-hidden" data-modal>
-    <div class="modal">
-      <h2 class="modal-title">Заголовок мадального вікна</h2>
-      <form class="modal-form">
-        <div class="modal-box">
-          <label class="modal-label">Ім'я
-            <input class="modal-input" type="text" required minlength="3" maxlength="20">
-          </label>
-          <svg class="modal-svg" width="20" height="20">
-            <use href="./img/symbol-defs.svg#name"></use>
-          </svg>
-        </div>
-        <div class="modal-box">
-          <label class="modal-label">Телефон
-            <input class="modal-input" type="tel" placeholder="+380501234567" ppattern="^(\+?38)?0\d{9}$" required />
-          </label>
-          <svg class="modal-svg" width="20" height="20">
-            <use href="./img/symbol-defs.svg#phone"></use>
-          </svg>
-        </div>
-        <div class="modal-box">
-          <label class="modal-label">Пошта
-            <input class="modal-input" type="email" required>
-          </label>
-          <svg class="modal-svg" width="20" height="20">
-            <use href="./img/symbol-defs.svg#mail"></use>
-          </svg>
-        </div>
-        <label class="modal-label">Коментар
-          <textarea name="Коментар" class="modal-coment"></textarea>
-        </label>
-        <input type="checkbox" class="modal-checkbox" required>
-        <button type="submit">Відправити</button>
-        <button type="button" class="form-close" data-modal-close>
-          <svg class="close">
-          <use href="./img/symbol-defs.svg#close"></use>
-        </svg>
-      </button>
-      </form>
-    </div>
-  </div>
-  <script src="./js/modal.js"></script>
 </body>
-
 </html>
