@@ -227,6 +227,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: 1s cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 
 .contact-item:hover {
@@ -236,6 +237,8 @@
   .contact-title {
     color: var(--footer-deck);
   }
+  .contact-ukon{background-color: rgb(120, 4, 167) ;}
+  .contact-img{fill:  #efefef;}
 }
 
 .contact-item:nth-child(2) {
@@ -246,9 +249,21 @@
   padding: 30px 34px 53px 35px;
 }
 
-.contact-img {
+.contact-ukon{
   width: 100px;
-  height: 100px;
+height: 100px;
+background-color: #efefef;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.contact-img {
+  width: 50px;
+  height: 50px;
+  fill: rgb(120, 4, 167);
 }
 
 .contact-title {
