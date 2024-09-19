@@ -442,3 +442,23 @@ border: none;
   height: 20px;
   fill: #000;
 }
+
+.scroll-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 2px 3px 4px 5px gray;
+}
+
+.scroll-icon {
+  width: 40px;
+  height: 40px;
+  fill: purple;
+}
