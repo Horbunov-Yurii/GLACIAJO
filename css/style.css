@@ -25,6 +25,19 @@ outline: 1px solid red;
   
 }
 
+
+.header-box{
+  display: flex;
+  align-items: center;
+}
+
+.header-logo{
+  display: flex;
+  gap: 37px;
+  align-items: center;
+  margin-right: 188px;
+}
+
 .logo-text {
   color: var(--accent-color);
   font-family: "Oswald";
@@ -37,6 +50,11 @@ outline: 1px solid red;
 
 
 
+.header-list{
+  display: flex;
+  gap: 65px;
+
+}
 
 
 .header-link {
@@ -58,7 +76,11 @@ outline: 1px solid red;
   background-color: var(--background-hero);
 }
 
-
+.hero-box{
+  display: flex;
+  gap: 397px;
+  align-items: center;
+}
 
 .hero-text {
   color: var(--accent-color);
@@ -66,6 +88,7 @@ outline: 1px solid red;
   font-size: 16px;
   font-weight: 400;
   line-height: normal;
+ margin-bottom: 20px;
  
 }
 
@@ -76,6 +99,7 @@ outline: 1px solid red;
   font-weight: 700;
   line-height: normal;
   width: 273px;
+  margin-bottom: 45px;
   
 }
 
@@ -85,6 +109,9 @@ outline: 1px solid red;
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
+  width: 527px;
+  margin-bottom: 45px;
+  
   
  
 }
@@ -99,6 +126,7 @@ outline: 1px solid red;
   border-radius: 5px;
   background: var(--title-color);
   border: none;
+  padding: 15px 30px 15px 30px;
 }
 
 /*секція популярні морозива*/
