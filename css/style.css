@@ -11,8 +11,19 @@
 /* font-family: "Oswald", sans-serif; */
 /* font-family: "Nunito", sans-serif; */
 /* font-family: "Raleway", sans-serif; */
-
-
+.conteiner{
+  width: 1640px;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: auto;
+margin-right: auto;
+outline: 1px solid red;
+}
+.header{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  
+}
 
 .logo-text {
   color: var(--accent-color);
