@@ -132,13 +132,24 @@ outline: 1px solid red;
 /*секція популярні морозива*/
 
 
+.popular{
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
+.popular-list{
+  display: flex;
+  gap: 20px;
+}
 
 
 .popular-item {
   border-radius: 10px;
   background: var(--popular-card);
- 
+ display: flex;
+ align-items: center;
+ gap: 117px;
+ padding: 40px 140px 40px 70px;
 }
 
 .popular-title {
@@ -148,6 +159,7 @@ outline: 1px solid red;
   font-size: 36px;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 10px;
   
 }
 
@@ -157,6 +169,7 @@ outline: 1px solid red;
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 45px;
   
 }
 
@@ -168,11 +181,14 @@ outline: 1px solid red;
   font-weight: 400;
   border-radius: 5px;
   border: 1px solid var(--text-color);
+  padding: 15px 30px;
 }
 
 /* секція топ */
 .top {
   background-color: var(--background-hero);
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 .top-title {
   
@@ -182,6 +198,7 @@ outline: 1px solid red;
   font-size: 48px;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 40px;
 }
 
 .top-text {
@@ -192,21 +209,40 @@ outline: 1px solid red;
   font-size: 20px;
   font-weight: 400;
   line-height: normal;
+  width: 790px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 68px;
   
 }
 
-
+.top-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
 
 /* contact */
 
+.contact{
+  padding-top: 100px;
+  padding-bottom: 100px;
 
+}
+
+.contact-list{
+  display: flex;
+  gap: 20px;
+  
+}
 
 
 .contact-item {
   text-align: center;
   border-radius: 10px;
   box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.25);
- 
+  padding-top: 30px;
+  padding-bottom: 53px;
   
 }
 
@@ -219,14 +255,6 @@ outline: 1px solid red;
   }
   .contact-ukon{background-color: rgb(120, 4, 167) ;}
   .contact-img{fill:  #efefef;}
-}
-
-.contact-item:nth-child(2) {
-  padding: 30px 189px 53px 189px;
-}
-
-.contact-item:nth-child(3) {
-  padding: 30px 34px 53px 35px;
 }
 
 .contact-ukon{
