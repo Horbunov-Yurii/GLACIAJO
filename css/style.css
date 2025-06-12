@@ -6,7 +6,58 @@
   --popular-card: #efefef;
   --footer-deck: #fff;
   --footer-background: #181818;
+  --logo--color:#FF993A;
 }
+.header-logo{
+  color:var(--logo--color);
+font-family: Oswald;
+font-size: 24px;
+font-weight: 400;
+line-height:1.5;
+}
+.header-link{
+  color:var(--text-color);
+font-family: Raleway;
+font-size: 20px;
+font-weight: 400;
+line-height: 1.15;
+}
+.header-link:hover,
+.header-link:focus {
+color:var(--logo--color) ;
+}
+.hero-txt{
+  color:var(--logo--color);
+font-family: Raleway;
+font-size: 16px;
+font-weight: 400;
+line-height:1.18;
+}
+.hero-title{
+  color:var(--title-color);
+font-family: Nunito;
+font-size: 48px;
+font-weight: 700;
+line-height: 1.35;
+}
+.hero-des{
+  color:var(--text-color);
+font-family:Nunito;
+font-size: 20px;
+font-weight: 400;
+line-height: 1.35;
+}
+.hero-button{
+  color: var(--footer-deck);
+font-family: Nunito;
+font-size: 20px;
+font-weight: 700;
+line-height: 1.35;
+border-radius: 5px;
+background: #FF463A;
+}
+
+
 /* font-family: "Inter", sans-serif; */
 /* font-family: "Oswald", sans-serif; */
 /* font-family: "Nunito", sans-serif; */
