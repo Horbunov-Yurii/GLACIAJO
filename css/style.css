@@ -8,12 +8,35 @@
   --footer-background: #181818;
   --logo--color:#FF993A;
 }
+.conteiner{
+width: 1640px;
+padding-left: 10px;
+padding-right: 10px;
+margin: 0 auto;
+outline: 1px solid red;
+}
+.header{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.header > .conteiner{
+  display: flex;
+  align-items: center;
+  gap: 188px;
+}
 .header-logo{
   color:var(--logo--color);
 font-family: Oswald;
 font-size: 24px;
 font-weight: 400;
 line-height:1.5;
+display: flex;
+gap: 37px;
+align-items: center;
+}
+.header-list{
+  display: flex;
+  gap: 65px;
 }
 .header-link{
   color:var(--text-color);
@@ -26,12 +49,21 @@ line-height: 1.15;
 .header-link:focus {
 color:var(--logo--color) ;
 }
+.hero{
+  background:#FFE4CC
+}
+.hero > .conteiner{
+  display: flex;
+  gap: 397px;
+  align-items: center;
+}
 .hero-txt{
   color:var(--logo--color);
 font-family: Raleway;
 font-size: 16px;
 font-weight: 400;
 line-height:1.18;
+margin-bottom: 20px;
 }
 .hero-title{
   color:var(--title-color);
@@ -39,6 +71,8 @@ font-family: Nunito;
 font-size: 48px;
 font-weight: 700;
 line-height: 1.35;
+margin-bottom: 45px;
+width: 273px;
 }
 .hero-des{
   color:var(--text-color);
@@ -46,6 +80,8 @@ font-family:Nunito;
 font-size: 20px;
 font-weight: 400;
 line-height: 1.35;
+width: 527px;
+margin-bottom: 45px;
 }
 .hero-button{
   color: var(--footer-deck);
@@ -55,6 +91,8 @@ font-weight: 700;
 line-height: 1.35;
 border-radius: 5px;
 background: #FF463A;
+padding: 15px 30px;
+border: none;
 }
 
 
