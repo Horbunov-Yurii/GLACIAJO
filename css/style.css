@@ -100,6 +100,20 @@
   padding-bottom: 60px;
 }
 
+.popular_list {
+  display: flex;
+  gap: 20px;
+}
+
+.popular_item {
+  background-color: #efefef;
+  border-radius: 10px;
+  padding: 40px 140px 40px 70px;
+  display: flex;
+  align-items: center;
+  gap: 117px;
+}
+
 .popular_title {
   color: #ff463a;
   font-family: Nunito;
@@ -107,6 +121,7 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  margin-bottom: 10px;
 }
 
 .popular_txt {
@@ -115,6 +130,7 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin-bottom: 45px;
 }
 
 .popular_button {
@@ -135,6 +151,8 @@
 
 .ice {
   background-color: #ffe4cc;
+  padding-bottom: 100px;
+  padding-top: 60px;
 }
 
 .ice_title {
@@ -145,7 +163,6 @@
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding-top: 60px;
   margin-bottom: 40px;
 }
 
@@ -157,16 +174,15 @@
   font-weight: 400;
   line-height: normal;
   margin-bottom: 68px;
+  width: 790px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ice_img {
-  color: var(--popular-card);
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
-  padding-bottom: 100px;
-  margin-left: 150px;
-  margin-right: 150px;
 }
 
 .top_ice {
@@ -175,18 +191,30 @@
   flex-shrink: 0;
 }
 
+.contact {
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
 .contact_list {
   display: flex;
-  gap: 443px;
+  gap: 20px;
+}
+
+.company_contact {
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 0px 17px 0px rgba(0, 0, 0, 0.25);
+  padding: 30px 150px 53px 150px;
+  width: 527px;
 }
 
 .contact_img {
-  margin-left: 150px;
-  margin-right: 150px;
+  margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .contact_title {
-  margin-top: 40px;
   margin-bottom: 25px;
   color: #ff463a;
   text-align: center;
@@ -198,12 +226,38 @@
 }
 
 .contact_link {
+  color: var(--text-color);
   text-align: center;
   font-family: Raleway;
   font-size: 24px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  width: 226px;
+}
+
+.company_contact:first-child {
+  .contact_link {
+    display: block;
+  }
+}
+
+.company_contact:last-child {
+  padding: 30px 35px 53px 34px;
+  .contact_link {
+    display: block;
+    width: 100%;
+  }
+}
+
+.company_contact:hover {
+  background-color: var(--logo--color);
+  .contact_title {
+    color: var(--popular-card);
+  }
+  .contact_link {
+    color: var(--popular-card);
+  }
 }
 
 .footer {
@@ -229,11 +283,11 @@
   font-weight: 400;
   line-height: normal;
   display: flex;
-  justify-content:end;
-  align-items:center;
+  justify-content: end;
+  align-items: center;
 }
 
-.footer_text{
+.footer_text {
   display: flex;
   align-items: center;
   justify-content: end;
